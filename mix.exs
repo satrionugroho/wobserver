@@ -79,11 +79,11 @@ defmodule Wobserver.Mixfile do
       {:plug, "~> 1.7"},
       {:plug_cowboy, "~> 2.0"},
       {:jason, "~> 1.1"},
+      {:httpoison, "~> 1.5"},
       {:credo, "~> 0.7", only: [:dev, :test]},
       {:dialyxir, "~> 0.5", only: [:dev], runtime: false},
       {:ex_doc, "~> 0.19.1", only: :dev},
       {:excoveralls, "~> 0.6", only: :test},
-      {:httpoison, "~> 0.11 or ~> 0.12"},
       {:inch_ex, "~> 0.5", only: [:dev, :test]},
       {:meck, "~> 0.8.4", only: :test},
       {:websocket_client, "~> 1.2"}
